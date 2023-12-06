@@ -2,18 +2,261 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 13%
+    right: 63%
+    width: 23%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 55%
+    right: 11%
+    width: 15%
+  &-3
+    animation: float1 4.5s ease-in-out infinite alternate
+    position: absolute
+    top: 24%
+    right: 6%
+    width: 79%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+.banner-interno__fondo
+  background: url('../assets/curso/portada/mini-portada.png') !important  
+  background-size: cover !important
+  background-repeat: no-repeat
+  background-position: center !important
+.banner-principal p, .banner-principal h1, .banner-interno__titulo h2
+  color: $color-sistema-texto !important
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.fondo-acento-contenido
+  background-color: #583CB6
+  background-size: cover
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem 
+.fondo-bg1
+  background: #FDEEE5
+  background-position: center
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+.fondo-bg2
+  background: #F4F0FF
+  background-position: center
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+.fondo-bg3
+  background: #FDF5E5
+  background-position: center
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+.fondo-bg4
+  background: #E6E2F4
+  background-position: center
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+.fondo-bg5
+  background: #F5F2FF
+  background-position: center
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+.fondo2-t1
+  background: url('../assets/curso/temas/t1/fondo2.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+.fondo3-t1
+  background: url('../assets/curso/temas/t1/fondo3.png')
+  background-position: center bottom
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+.fondo4-t1
+  background: url('../assets/curso/temas/t1/fondo4.png')
+  background-position: center top
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+.fondo8-t1
+  background: url('../assets/curso/temas/t1/fondo8.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+.fondo-t2
+  background: url('../assets/curso/temas/t2/fondo.png')
+  background-position: center top
+  background-size: 100% 60%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+.fondo2-t2
+  background: url('../assets/curso/temas/t2/fondo2.png')
+  background-position: center bottom
+  background-size: 100% 85%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+
+
+.bg-primario
+  background-color: $color-primario
+.bg-secundario
+  background-color: $color-secundario
+.bg-acento-contenido
+  background-color: $color-acento-contenido
+.bg-acento-botones
+  background-color: $color-acento-botones
+.bg-1
+  background-color: #F6F6F6
+.bg-2
+  background-color: #C4BBE5
+.bg-3
+  background-color:#FAD6C3
+.bg-4
+  background-color:#FAE8C2
+.bg-5
+  background-color:#FDEEE5
+.bg-6
+  background-color:#FAEBCD
+.bg-7
+  background-color:#F0BD51
+.bg-8
+  background-color: #FDF5E5
+.bg-9
+  background-color:#F7E9E1
+.bg-10
+  background-color:#E6E2F4
+
+
+.br-5
+  border-radius: 5px !important
+.br-10
+  border-radius: 10px !important
+.br-21
+  border-radius: 21px  
+.w-fit
+  width: fit-content
+.mtn-15
+  margin-top: -15%
+.t-acento-contenido
+  color: #583CB6
+
+
+.slyder-a__bullets__item
+  background-color: #8CB595
+  border-color: #8CB595
+.slyder-a__bullets__item--active 
+  background-color: #0E763D
+  border-color: #0E763D
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  border-color: #0E763D
+  background-color: #0E763D
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-image: url('../assets/curso/temas/t2/arrow.svg')
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+  transform: rotate(0deg)
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+  transform: rotate(180deg)
+.t1-1.cajon-b:before
+  right: 85%
+  bottom: 8%
+  opacity: 1
+  @media (max-width: 992px)
+    right: 70%
+.t2-2.cajon-b:before
+  right: 66%
+  bottom: 8%
+  background-color: #F7E9E1
+  opacity: 1
+.acordion__accion__btn--b 
+  border: 1px solid #0E763D
+  background-color: #0E763D
+.acordion__accion__btn--b i
+  color: #FFF  
+.tarjeta--gris.acordion__activo
+  background-color: #FDF5E5
+.lista-ul--color.check-color li > i
+  color: #12263F
+  &:before  
+    background-color: #FDBE41
+    border-radius: 50px
+    padding: 5px
+.lista-ul--color.color-secundario li > i
+  color: #EF8B53
+.tarjeta-avatar.t1-3 > img
+  width: 100px
+.tabs-b.color-acento-botones .tabs-b__tab--active
+  background-color: #FDF5E5
+.tabs-b.color-acento-botones .tabs-b__tab--active .tabs-b__tab__title
+  color: #583CB6
+.tabs-b__tab__title
+  font-size: 1em 
+.tabs-b__tab__icon
+  filter: grayscale(1)
+  width: 60px
+.tabs-b.color-acento-botones .tabs-b__tab--active .tabs-b__tab__icon
+  filter: grayscale(0)
+.lista-ul.fa-ul.circle i 
+  font-size: 9px
+  padding-top: 1px
+.tabla-b tr:nth-child(even), .tabla-c tr:nth-child(even)
+  background-color: rgba(232, 232, 232, 0)
+.tabla-b td
+  border: 1px solid
+
+
+.deco-tarjb
+  position: absolute
+  width: 85px
+  right: 0px
+  bottom: -35px
+.img-1
+  position: relative
+  margin-top: -2%
+  margin-left: -2%
+  margin-bottom: -2%
+  @media (max-width: 992px)
+    display: none
+.img-2
+  position: relative
+  margin-top: -3%
+  margin-right: -2%
+  margin-bottom: -2%
+  @media (max-width: 992px)
+    display: none
