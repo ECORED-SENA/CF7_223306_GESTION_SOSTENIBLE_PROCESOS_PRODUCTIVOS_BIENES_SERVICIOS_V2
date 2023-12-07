@@ -155,7 +155,7 @@
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 8.] Tabla de frecuencia de las actividades de un operador durante una jornada
           figure.mb-5(data-aos="fade-down")
-            img(src='@/assets/curso/temas/t2/fig8.png', alt='')
+            img(src='@/assets/curso/temas/t2/fig8.png', alt='La imagen es una tabla de frecuencia que muestra las actividades de un operador durante una jornada, divididas en turnos diurnos y nocturnos y clasificadas en productivas e improductivas.')
       .row(titulo="El gráfico circular")
         .col-md-6.mb-4.mb-md-0
           p El gráfico circular, también conocido como gráfico de sectores, representa una serie de cantidades mediante un círculo dividido en varios sectores. El tamaño de cada sector depende directamente de la proporción o frecuencia de la variable estudiada en la investigación. La información representada en este tipo de gráfico se puede resumir de la siguiente manera.
@@ -163,7 +163,7 @@
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 9.] Gráfico circular de las actividades de un operador por jornada
           figure.mb-5(data-aos="fade-down")
-            img(src='@/assets/curso/temas/t2/fig9.png', alt='')
+            img(src='@/assets/curso/temas/t2/fig9.png', alt='La imagen muestra un gráfico circular que representa las actividades de un operador en una jornada, divididas en productivas y improductivas.')
       .row(titulo="El gráfico de barras")
         .col-md-6.mb-4.mb-md-0
           p Este gráfico utiliza barras rectangulares, cuya altura (o longitud, en el caso de barras horizontales) representa la frecuencia correspondiente a cada categoría o variable.
@@ -171,7 +171,7 @@
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 10.] Gráfico de barras de las actividades de un operador por jornada.
           figure.mb-5(data-aos="fade-down")
-            img(src='@/assets/curso/temas/t2/fig10.png', alt='')
+            img(src='@/assets/curso/temas/t2/fig10.png', alt='La imagen muestra un gráfico de barras con dos barras que representan las actividades de un operador durante una jornada, clasificadas como productivas e improductivas.')
 
     .row.fondo-acento-contenido.align-items-center.py-3.mb-4(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-5.px-4

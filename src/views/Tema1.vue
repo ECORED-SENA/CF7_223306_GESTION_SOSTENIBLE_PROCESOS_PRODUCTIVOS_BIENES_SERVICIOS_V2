@@ -110,7 +110,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video.  
       .row.justify-content-center(titulo="Técnica 5W2H")
-        p.mb-4 Por sus letras iniciales de las preguntas en inglés, ¿What?, ¿Where?, ¿Who?, ¿When?, ¿Why?, ¿How?, y ¿How Many?, que traducen, ¿qué?, ¿dónde?, ¿cuándo?, ¿quién?, ¿por qué?, ¿cómo?, y ¿cuánto?, en este sentido, esta técnica 5W2H consiste en responder a cuestionamientos que comienzan con estas palabras, dentro de muchos otros cuestionamientos que permiten estudiar y detectar posibles fallas del proceso; algunas preguntas de ejemplo son las que se muestran en la siguiente figura 1:
+        p.mb-4 Por sus letras iniciales de las preguntas en inglés,#[em ¿What?, ¿Where?, ¿Who?, ¿When?, ¿Why?, ¿How?], y #[em ¿How Many?], que traducen, ¿qué?, ¿dónde?, ¿cuándo?, ¿quién?, ¿por qué?, ¿cómo?, y ¿cuánto?, en este sentido, esta técnica 5W2H consiste en responder a cuestionamientos que comienzan con estas palabras, dentro de muchos otros cuestionamientos que permiten estudiar y detectar posibles fallas del proceso; algunas preguntas de ejemplo son las que se muestran en la siguiente figura 1:
         .col-lg-9
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 1.] Ejemplo cuestionamientos técnica 5W2H
@@ -132,7 +132,7 @@
                 p.mb-0 ¿Por qué se produce de esa forma actualmente?
                 p.mb-0 ¿Cómo se mide el proceso?
       .row.justify-content-center(titulo="VSM (<em>Visual Stream Mapping</em>)")
-        p Se puede utilizar la herramienta Visual Stream Mapping (Mapa de Flujo de Valor) para mapear procesos. Esta técnica permite visualizar todo el proceso, facilitando la validación de las entradas, salidas, procesos de transformación y la planeación. Proporciona datos relevantes como los tiempos de ciclo, tiempos de alistamiento, tiempos muertos y la cantidad de personas participando en cada proceso. Además, ayuda a determinar los procesos que son restricciones. Generalmente se usa en la implementación de herramientas de manufactura esbelta y optimización de procesos, facilitando el análisis de cada parte del proceso.
+        p Se puede utilizar la herramienta #[em Visual Stream Mapping] (Mapa de Flujo de Valor) para mapear procesos. Esta técnica permite visualizar todo el proceso, facilitando la validación de las entradas, salidas, procesos de transformación y la planeación. Proporciona datos relevantes como los tiempos de ciclo, tiempos de alistamiento, tiempos muertos y la cantidad de personas participando en cada proceso. Además, ayuda a determinar los procesos que son restricciones. Generalmente se usa en la implementación de herramientas de manufactura esbelta y optimización de procesos, facilitando el análisis de cada parte del proceso.
         p.mb-4 Como se muestra en la figura 2, el mapa de flujo de valor permite conocer los detalles del proceso y las oportunidades de mejora, en donde se podrá intervenir con las herramientas que se consideren convenientes:
         .col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3
@@ -265,7 +265,7 @@
               td.text-center Máquina menos productiva
               td Es la máquina que tuvo menor Tiempo de Actividad de la semana.
 
-    p(data-aos="fade") Un ejemplo del uso de indicadores en la gestión de procesos se observa cuando se interviene en el área de mantenimiento para minimizar el tiempo de reparación de las máquinas. Esta intervención se reflejará en el indicador Mean Time To Repair (MTTR), o Tiempo Medio de Reparación, que, al disminuir, incrementará inmediatamente la disponibilidad de las máquinas usadas en la planta y, como consecuencia, aumentará la eficiencia global.
+    p(data-aos="fade") Un ejemplo del uso de indicadores en la gestión de procesos se observa cuando se interviene en el área de mantenimiento para minimizar el tiempo de reparación de las máquinas. Esta intervención se reflejará en el indicador #[em Mean Time To Repair] (MTTR), o Tiempo Medio de Reparación, que, al disminuir, incrementará inmediatamente la disponibilidad de las máquinas usadas en la planta y, como consecuencia, aumentará la eficiencia global.
  
     p(data-aos="fade") Generalmente, estos indicadores son considerados a diario en las organizaciones que se enfocan en la gestión de procesos e implementación de herramientas de manufactura esbelta, automatización o metodologías Seis Sigma.
 
@@ -351,8 +351,55 @@
 
           p.mb-4(data-aos="fade") Un componente esencial de esta filosofía es el Gemba Kaizen. Para comprender más profundamente este enfoque, se recomienda revisar la siguiente infografía:
 
-          .col-lg-10
-            img(src='@/assets/curso/temas/t1/infografia.svg', alt='')
+          .col-lg-9.mb-4
+            .bg-infog
+              .row.align-items-center
+                .col-lg-4.col-md-6.col-8.mb-3.mt-4.mt-lg-0
+                  .keizen.bg-white.text-center
+                    p.mb-0 KEISEN
+                .col-lg-8.mb-3
+                  .p-4.pb-0
+                    .tarjeta.bg-secundario
+                      .p-4.position-relative
+                        p.mb-0 #[b Es un término japonés que significa lugar real.] El enfoque requiere que, cuando surge un problema, los ingenieros acudan al sitio para identificar la causa y el impacto, permitiéndoles así proponer soluciones adecuadas.
+                        img.deco-tarjb(src='@/assets/curso/temas/t2/deco-tarjb.svg' alt='')
+              .p-4
+                p Los pasos para la implementación Kaizen se basa en:
+                .row.justify-content-center 
+                  .col-md-6.col-lg-4.mb-3
+                    .bg-7.p-3.br-10.h-100.align-items-center.d-flex
+                      .row.align-items-center
+                        .col-md-4.col-3
+                          p.num.mb-0 1
+                        .col-md-8.col-9.ps-0
+                          p.mb-0 Seleccionar un tema o problema
+                  .col-md-6.col-lg-4.mb-3
+                    .bg-7.p-3.br-10.h-100.align-items-center.d-flex
+                      .row.align-items-center
+                        .col-md-4.col-3
+                          p.num.mb-0 2
+                        .col-md-8.col-9.ps-0
+                          p.mb-0 Crear un equipo de trabajo de preferencia multidisciplinario 
+                  .col-md-6.col-lg-4.mb-3
+                    .bg-7.p-3.br-10.h-100.align-items-center.d-flex
+                      .row.align-items-center
+                        .col-md-4.col-3
+                          p.num.mb-0 3
+                        .col-md-8.col-9.ps-0
+                          p.mb-0 Recolectar y analizar los datos del proceso
+                p En este proceso se tiene en cuenta el Círculo Deming como herramienta para lograr la mejora continua.
+                .tarjeta.punteada.p-4.mb-4
+                  .row.justify-content-center
+                    .col-lg-4.col-md-8.col-9.mb-3.mb-lg-0.align-items-center
+                      img(src='@/assets/curso/temas/t1/infog-img.svg' alt='')
+                    .col-lg-8.mb-3.mb-lg-0
+                      p.mb-1 #[b Planear:] implica definir las acciones a realizar, establecer objetivos, asignar recursos y comunicar el plan a los involucrados en el proceso de mejora.
+                      p.mb-1 #[b Hacer:] consiste en ejecutar lo que se planeó y desarrollar las actividades o procesos.
+                      p.mb-1 #[b Verificar:] se comparan los resultados con los objetivos, y se comprueba el impacto que obtuvo la intervención.
+                      p.mb-0 #[b Actuar:] se confirma o se ajusta la acción de mejora.
+                  .position-relative
+                    img.deco-tarj2(src='@/assets/curso/temas/t1/deco2.svg' alt='')
+
 
 
     p.mb-4(data-aos="fade") 
@@ -430,7 +477,7 @@
                 .tarjeta.bg-1.p-3(x="47%" y="92%" numero="+")
                   h5.mb-1 Gráficos de control
                   p.mb-0 Los gráficos de control son herramientas estadísticas utilizadas en el control de calidad para monitorear y controlar un proceso. Permiten determinar si un proceso está en estado de control estadístico.
-          .col-lg-5.col-6.mb-4(data-aos="fade-left")
+          .col-lg-5.d-none.d-lg-block.mb-4(data-aos="fade-left")
             img(src='@/assets/curso/temas/t1/img6.svg', alt='')
 
     .row.align-items-center.justify-content-center.mb-2
@@ -522,10 +569,10 @@
 
     h4.t-acento-contenido(data-aos="fade") Norma ISO 14001 
 
-    p.mb-4(data-aos="fade") Esta normativa está enfocada en la mejora continua y solicita a las organizaciones desarrollar un plan ambiental que incluya políticas, objetivos y metas. Estos deben estar dirigidos a controlar los aspectos ambientales y cumplir con los requisitos legales relacionados con el medio ambiente. Los aspectos que este sistema considera incluyen residuos, emisiones, vertidos y consumos generados por el proceso productivo, desde la adquisición de la materia prima hasta los servicios posventa. Al igual que la norma ISO 9001, la norma ISO 14001 establece un conjunto de buenas prácticas que cualquier empresa puede certificar voluntariamente. Los beneficios de implementar estas normas son
+    p.mb-4(data-aos="fade") Esta normativa está enfocada en la mejora continua y solicita a las organizaciones desarrollar un plan ambiental que incluya políticas, objetivos y metas. Estos deben estar dirigidos a controlar los aspectos ambientales y cumplir con los requisitos legales relacionados con el medio ambiente. Los aspectos que este sistema considera incluyen residuos, emisiones, vertidos y consumos generados por el proceso productivo, desde la adquisición de la materia prima hasta los servicios posventa. Al igual que la norma ISO 9001, la norma ISO 14001 establece un conjunto de buenas prácticas que cualquier empresa puede certificar voluntariamente. Los beneficios de implementar estas normas son:
 
     .row.align-items-center.mb-2
-      .col-lg-4.col-8.mb-4(data-aos="fade-right")
+      .col-lg-4.d-none.d-lg-block.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img10.svg', alt='')
       .col-lg-8.mb-4(data-aos="fade-left")
         .row.mb-3

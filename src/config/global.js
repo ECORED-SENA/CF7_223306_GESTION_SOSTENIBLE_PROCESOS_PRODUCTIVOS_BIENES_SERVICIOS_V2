@@ -130,14 +130,14 @@ export default {
     {
       tema: '1.1. Gestión de Procesos',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2021). Matriz DOFA. [Video] YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA (2021). Matriz DOFA.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=84fuGpQeYg0',
     },
     {
       tema: '2.2 Recolección y sistematización de la información',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2021). Recolección de datos. [Video] YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA (2021). Recolección de datos.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=84fuGpQeYg0',
     },
