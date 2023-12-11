@@ -107,8 +107,8 @@
         p.mb-4 El siguiente video ofrece una visión clara sobre las ventajas de aplicar esta herramienta DOFA
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.  
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/84fuGpQeYg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Matriz DOFA 
       .row.justify-content-center(titulo="Técnica 5W2H")
         p.mb-4 Por sus letras iniciales de las preguntas en inglés,#[em ¿What?, ¿Where?, ¿Who?, ¿When?, ¿Why?, ¿How?], y #[em ¿How Many?], que traducen, ¿qué?, ¿dónde?, ¿cuándo?, ¿quién?, ¿por qué?, ¿cómo?, y ¿cuánto?, en este sentido, esta técnica 5W2H consiste en responder a cuestionamientos que comienzan con estas palabras, dentro de muchos otros cuestionamientos que permiten estudiar y detectar posibles fallas del proceso; algunas preguntas de ejemplo son las que se muestran en la siguiente figura 1:
         .col-lg-9
@@ -488,8 +488,8 @@
 
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video.               
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ySzEnK55tuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Estrategias del Modelo Calidad Total               
 
 
     Separador
