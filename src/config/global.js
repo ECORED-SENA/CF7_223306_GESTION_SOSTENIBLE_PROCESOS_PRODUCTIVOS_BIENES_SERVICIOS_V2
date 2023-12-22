@@ -217,7 +217,7 @@ export default {
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación (2017) NTC-ISO-IEC 17025:2017 (Capitulo 3)',
       link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6375',
+        'http://www.saludcapital.gov.co/CTDLab/Publicaciones/2015/Norma%20tecnica%20colombiana%2017025.pdf',
     },
     {
       referencia:
@@ -267,7 +267,7 @@ export default {
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Corrector de estilo',
+          cargo: 'Corrector de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
@@ -289,7 +289,7 @@ export default {
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -313,7 +313,7 @@ export default {
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Actividad didáctica',
+          cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

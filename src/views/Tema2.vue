@@ -66,7 +66,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span.fw-bold 1
-                | Uno de ellos es el perfil de la persona que lo va a diligenciar, es decir quiénes son los clientes objetivo, con el fin de contar con la información necesaria.
+                | Uno de ellos es el perfil de la persona que lo va a diligenciar, es decir, quiénes son los clientes objetivo, con el fin de contar con la información necesaria.
               li 
                 .lista-ol--cuadro__vineta
                   span.fw-bold 2
@@ -78,7 +78,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span.fw-bold 4
-                | Los formatos deben estar diseñados para diligéncialos de forma sencilla y ágil, por ende debe apoyarse de ítems de selección y poco texto.
+                | Los formatos deben estar diseñados para diligenciarlos de forma sencilla y ágil, por ende debe apoyarse de ítems de selección y poco texto.
               li 
                 .lista-ol--cuadro__vineta
                   span.fw-bold 5
@@ -106,7 +106,7 @@
             .p-4.px-lg-5
               .bg-white.br-21.w-fit.m-auto.px-4.mb-4
                 h4.text-center.py-2 Los recursos tecnológicos
-              p.mb-4 Requiere software para captura y almacenamiento de esos datos.
+              p.mb-4 Requiere #[em software] para captura y almacenamiento de esos datos.
 
 
     Separador
@@ -211,7 +211,7 @@
           .col-md-4.mb-3
             .bg-4.br-10.h-100.p-4.text-center
               img.m-auto.mb-3(src='@/assets/curso/temas/t2/tarj2-ico3.svg', alt='', style="width: 100px;")
-              p.mb-0 Decisiones #[b individuales o grupales], estás ultimas se pondrán en contexto y se votará por la opción más asertiva.
+              p.mb-0 Decisiones #[b individuales o grupales], estás últimas se pondrán en contexto y se votará por la opción más asertiva.
 
     p.mb-4(data-aos="fade") Para tomar decisiones, es importante contar con las herramientas que se han mencionado anteriormente. Sin embargo, también existen otras que facilitan la toma de decisiones a nivel gerencial, como el Balanced Scorecard o cuadro de mando integral:
 

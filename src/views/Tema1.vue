@@ -87,10 +87,12 @@
         .bg-10.br-21
           .row.align-items-center
             .col-lg-9
-              p.mb-0.p-4 Pero para gestionar adecuadamente los procesos, es inicialmente necesario contar con información que permita identificar las oportunidades de mejora y determinar en qué procesos se deben implementar los modelos de mejoramiento. Esta información proviene de datos históricos y actuales de cada una de las áreas, donde se puede visualizar el comportamiento de las variables que intervienen en los procesos. Por ejemplo, al gestionar un proceso de fabricación de zapatos, se debe validar la información correspondiente a datos históricos de indicadores de eficiencia, productividad, desperdicios, productos defectuosos, entre otros. Estos datos permitirán analizar en qué parte del proceso se deben concentrar los esfuerzos de gestión. Sin embargo, para esto, existen técnicas de análisis y planeación de procesos.
+              p.mb-0.p-4 Pero para gestionar adecuadamente los procesos, es inicialmente necesario contar con información que permita identificar las oportunidades de mejora y determinar en qué procesos se deben implementar los modelos de mejoramiento. Esta información proviene de datos históricos y actuales de cada una de las áreas, donde se puede visualizar el comportamiento de las variables que intervienen en los procesos. 
             .col-lg-3.py-0.img-2
               img(src='@/assets/curso/temas/t1/img4.png', alt='')
        
+    p.mb-5 Por ejemplo, al gestionar un proceso de fabricación de zapatos, se debe validar la información correspondiente a datos históricos de indicadores de eficiencia, productividad, desperdicios, productos defectuosos, entre otros. Estos datos permitirán analizar en qué parte del proceso se deben concentrar los esfuerzos de gestión. Sin embargo, para esto, existen técnicas de análisis y planeación de procesos.
+
     .bg-7.w-fit.px-3.py-2.mb-4(data-aos="fade") 
       h4.mb-0 Técnicas de análisis
 
@@ -115,7 +117,7 @@
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 1.] Ejemplo cuestionamientos técnica 5W2H
           figure.mb-3
-            img(src='@/assets/curso/temas/t1/fig1.svg', alt='La figura presenta un diagrama "5W2H", empleado en análisis y resolución de problemas, que plantea preguntas clave en inglés y español. Además, con preguntas sobre un proceso productivo, abarcando desde los elementos producidos hasta la tecnología usada y la medición del proceso.')
+            img(src='@/assets/curso/temas/t1/fig1.svg', alt='La figura presenta un diagrama 5W2H, empleado en análisis y resolución de problemas, que plantea preguntas clave en inglés y español. Además, con preguntas sobre un proceso productivo, abarcando desde los elementos producidos hasta la tecnología usada y la medición del proceso.')
           .bg-3.p-4
             .row
               .col-md-4
